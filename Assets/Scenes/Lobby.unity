@@ -296,6 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b42efc36a45ee494fa3d84bd5b771e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  networkVariables: {fileID: 371818044}
 --- !u!114 &153154894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,6 +650,7 @@ MonoBehaviour:
     m_InternalValue: 0
   readyTextGameobject: {fileID: 1601172883}
   readyPlayersGameobject: {fileID: 0}
+  lobbyNetworkController: {fileID: 153154893}
 --- !u!4 &371818045
 Transform:
   m_ObjectHideFlags: 0

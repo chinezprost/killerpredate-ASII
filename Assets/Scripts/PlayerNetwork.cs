@@ -7,6 +7,7 @@ using Unity.Netcode;
 using Unity.Services.Lobbies.Models;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 
@@ -128,7 +129,7 @@ public class PlayerNetwork : NetworkBehaviour
         if(networkVariablesController == null)
             networkVariablesController  = GameObject.Find("NetworkVariables");
 
-        if (networkVariables == null)
+        if (SceneManager.GetActiveScene().name == "Lobby" && networkVariables == null)
         {
             networkVariables = networkVariablesController.GetComponent<NetworkVariables>();
         }
@@ -171,15 +172,14 @@ public class PlayerNetwork : NetworkBehaviour
         if (ReadyPlayers.FirstOrDefault(x => x == OwnerClientId) == null)
         {
             ReadyPlayers.Add((uint)OwnerClientId);
-            if (networkVariables == null)
-                Debug.Log("cock");
             networkVariables.readyPlayers.Value += 1;
-            networkVariables.readyText.Value = new FixedString128Bytes($"Ready players: {networkVariables.readyPlayers.Value}/maxPlayers.");
             Debug.Log($"{OwnerClientId} has ready up!");
         }
         else
         {
-            Debug.Log($"{OwnerClientId} has aleardy ready up!");
+            ReadyPlayers.Remove((uint)OwnerClientId);
+            networkVariables.readyPlayers.Value -= 1;
+            Debug.Log($"{OwnerClientId} has unready!");
         }
     }
 

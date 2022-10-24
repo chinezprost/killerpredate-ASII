@@ -42,6 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
+     <Compile Include="Assets\Scripts\LobbyNetworkController.cs" />
+     <Compile Include="Assets\Scripts\ClientNetworkAnimator.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
      <Compile Include="Assets\Scripts\PlayerNetwork.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
@@ -50,6 +52,7 @@
      <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
      <Compile Include="Assets\Scripts\NetworkManagerUI.cs" />
+     <Compile Include="Assets\NetworkVariables.cs" />
      <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
      <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
@@ -62,10 +65,9 @@
      <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
-     <Compile Include="Assets\Scripts\ClientNetworkAnimator.cs" />
-     <Compile Include="Assets\Scripts\LobbyNetworkController.cs" />
      <Compile Include="Assets\InteractableObject.cs" />
-     <Compile Include="Assets\NetworkVariables.cs" />
+     <Compile Include="Assets\PlayerData.cs" />
+     <Compile Include="Assets\MantainTextToCamera.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

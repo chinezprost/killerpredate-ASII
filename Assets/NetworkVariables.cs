@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Collections;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NetworkVariables : NetworkBehaviour
 {
@@ -23,11 +24,14 @@ public class NetworkVariables : NetworkBehaviour
     public GameObject readyTextGameobject;
     public GameObject readyPlayersGameobject;
 
+    public LobbyNetworkController lobbyNetworkController;
+
     
 
     public void InitializeVariables()
     {
-        readyTextGameobject.GetComponent<TextMesh>().text = $"{readyPlayers.Value}/max players";
+        if(SceneManager.GetActiveScene().name == "Lobby")
+            readyTextGameobject.GetComponent<TextMesh>().text = $"{readyPlayers.Value}/max players";
     }
     
 
@@ -38,6 +42,11 @@ public class NetworkVariables : NetworkBehaviour
         readyPlayers.OnValueChanged += (int previous, int current) =>
         {
             readyTextGameobject.GetComponent<TextMesh>().text = $"{current}/max players";
+            if (NetworkManager.Singleton.IsHost && current == NetworkManager.ConnectedClients.Count)
+            {
+                Debug.Log("Starting game...");
+                lobbyNetworkController.LoadPlayArea();
+            }
             Debug.Log("Value changed" + current);
         };
 
@@ -45,6 +54,7 @@ public class NetworkVariables : NetworkBehaviour
         {
             
             Debug.Log("String changed" + current);
+            readyTextGameobject.GetComponent<TextMesh>().text = current.Value;
         };
     }
 }
