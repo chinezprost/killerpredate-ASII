@@ -1,0 +1,1210 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 14197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61285
+Successfully changed project path to: C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 129.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7098 MB
+    Driver:   27.20.15026.8004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003831 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1209ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5648 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (159.1 KB). Loaded Objects now: 6110.
+Memory consumption went from 219.0 MB to 218.9 MB.
+Total: 5.711100 ms (FindLiveObjects: 0.758100 ms CreateObjectMapping: 0.187000 ms MarkObjects: 4.553500 ms  DeleteObjects: 0.210600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98523.539220 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05
+  artifactKey: Guid(78381fefd2d8b3246ae17d2928e07176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05 using Guid(78381fefd2d8b3246ae17d2928e07176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2a8e3824a44a3ac100067f2a32332a') in 0.017497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030916 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05/BarV5_Bar.png
+  artifactKey: Guid(bc4b69566496fc04c8297716511042c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05/BarV5_Bar.png using Guid(bc4b69566496fc04c8297716511042c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7704bfd9138829d52dd8226d827b4d61') in 0.075518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609809 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_02
+  artifactKey: Guid(8c83d3ee048cdf34096be94ae8a5251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_02 using Guid(8c83d3ee048cdf34096be94ae8a5251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5914825dcac3a82474fe4f51751b60') in 0.007044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035360 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_02/BarV2_Bar.png
+  artifactKey: Guid(ee1b2b394b15dd44489a24b3a04f3e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_02/BarV2_Bar.png using Guid(ee1b2b394b15dd44489a24b3a04f3e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608259b0d47119a63df44f46b22292a9') in 0.018330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.239369 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons
+  artifactKey: Guid(1566c1d5659ed384d9a39f50ec2a2628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons using Guid(1566c1d5659ed384d9a39f50ec2a2628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873e6b46a5fbf84acc94b6f2143bf33') in 0.006706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038319 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Arrow.png
+  artifactKey: Guid(ac1bc4d160f0c8044a6feb7dcaec53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Arrow.png using Guid(ac1bc4d160f0c8044a6feb7dcaec53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c596bf857ac8e4aa72eb415ec2c87e0b') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon13.png
+  artifactKey: Guid(e5721097ac310dd46908ea58b214712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon13.png using Guid(e5721097ac310dd46908ea58b214712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cf5a1aa57c594baed39a2e620cb248') in 0.023575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon03.png
+  artifactKey: Guid(bce9749c46451134b9854c00f7ecc1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon03.png using Guid(bce9749c46451134b9854c00f7ecc1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa25e13be89fac641a34b478f9cece73') in 0.022966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsRight3.png
+  artifactKey: Guid(b719080a1b8e74049b80adefaed1c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsRight3.png using Guid(b719080a1b8e74049b80adefaed1c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a5403500866e57ceecbd21f9392893') in 0.021032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon15.png
+  artifactKey: Guid(baeb1ae4b59fec64081c7e816bdb49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon15.png using Guid(baeb1ae4b59fec64081c7e816bdb49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eccfa1fae3934358ba1a1f1166d413') in 0.021601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon06.png
+  artifactKey: Guid(344e1c9ddb5a58d48b0200bec0265170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon06.png using Guid(344e1c9ddb5a58d48b0200bec0265170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250b11b0901d50b56d0bf1d6c43a6dbc') in 0.020879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsLeft3.png
+  artifactKey: Guid(74e193405e879744daaac4ca2b8a259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsLeft3.png using Guid(74e193405e879744daaac4ca2b8a259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc6a56badbd788d2525c529e13f8d0d') in 0.021101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon04.png
+  artifactKey: Guid(b7c2495ecd2e7964aab1c01c8490991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon04.png using Guid(b7c2495ecd2e7964aab1c01c8490991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee015acb69f2979bc7a4efdae4439d') in 0.021140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon21.png
+  artifactKey: Guid(cf419c0ea01468047af7b430cdd96ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon21.png using Guid(cf419c0ea01468047af7b430cdd96ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a831db6b446dcdd21bbdc33f01d304') in 0.022330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Circle03.png
+  artifactKey: Guid(287e3a2bd1747c14baf8917b729aa441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Circle03.png using Guid(287e3a2bd1747c14baf8917b729aa441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06de70e2752e7899dd177d47fde4f3b1') in 0.022768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Circle02.png
+  artifactKey: Guid(705a4e3f68ce63d42a30b9af8b7996d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Circle02.png using Guid(705a4e3f68ce63d42a30b9af8b7996d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634a34ebe50d7545652c4f20819494ea') in 0.024959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon08.png
+  artifactKey: Guid(5a9ae2700302c05449cfd0771d6f8af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon08.png using Guid(5a9ae2700302c05449cfd0771d6f8af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd21ecee93821ed523512696b44ecbf') in 0.024711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550336 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon24.png
+  artifactKey: Guid(8cceb7d7c6ee3834da884576eee4acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon24.png using Guid(8cceb7d7c6ee3834da884576eee4acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972b63d8fe1a5e2f310059b6ba8b2d16') in 0.021423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon28.png
+  artifactKey: Guid(7f278554f576be2448430b78a7d0660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon28.png using Guid(7f278554f576be2448430b78a7d0660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e76937a2985651d67dd592fc035aa6') in 0.021272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon38.png
+  artifactKey: Guid(b383d2aff5e722540ac523ad7e0f4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon38.png using Guid(b383d2aff5e722540ac523ad7e0f4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d80707b9f72e2bae1d8f1b5ce742b9') in 0.021932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon37.png
+  artifactKey: Guid(bcd55d18e52a5e44a99fa5473c8f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon37.png using Guid(bcd55d18e52a5e44a99fa5473c8f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa8774209f8dbe3dff45988e630c46') in 0.023945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon27.png
+  artifactKey: Guid(9f4a16a20b66b5a409ad2256e219f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon27.png using Guid(9f4a16a20b66b5a409ad2256e219f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7905c80baa8e0fb92fa893ba52a2c8a') in 0.020567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.907889 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Arrow.png
+  artifactKey: Guid(ac1bc4d160f0c8044a6feb7dcaec53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Arrow.png using Guid(ac1bc4d160f0c8044a6feb7dcaec53bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f171c0be05315aa56778899e918c206') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon13.png
+  artifactKey: Guid(e5721097ac310dd46908ea58b214712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon13.png using Guid(e5721097ac310dd46908ea58b214712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27617404d58255a6d3f58f4e2990dd2') in 0.016720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon03.png
+  artifactKey: Guid(bce9749c46451134b9854c00f7ecc1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon03.png using Guid(bce9749c46451134b9854c00f7ecc1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1508b92b50395c9d191cb43be876af4') in 0.024901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsRight3.png
+  artifactKey: Guid(b719080a1b8e74049b80adefaed1c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsRight3.png using Guid(b719080a1b8e74049b80adefaed1c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84e712db762688be19884d8a1c7e88b') in 0.018486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon15.png
+  artifactKey: Guid(baeb1ae4b59fec64081c7e816bdb49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon15.png using Guid(baeb1ae4b59fec64081c7e816bdb49d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910d8b43532c0145b7698fafd3d3f72') in 0.019268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon06.png
+  artifactKey: Guid(344e1c9ddb5a58d48b0200bec0265170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon06.png using Guid(344e1c9ddb5a58d48b0200bec0265170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f6b1d8bd44805fd8854b6f431d2153') in 0.018805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon19.png
+  artifactKey: Guid(214865a0c32341d46ac7e55aa35ed806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon19.png using Guid(214865a0c32341d46ac7e55aa35ed806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81ea52e555d952ed673f81757452db') in 0.016365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon04.png
+  artifactKey: Guid(b7c2495ecd2e7964aab1c01c8490991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon04.png using Guid(b7c2495ecd2e7964aab1c01c8490991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fb8e75d09bdb39b20a1bc28db63368') in 0.019108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon21.png
+  artifactKey: Guid(cf419c0ea01468047af7b430cdd96ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon21.png using Guid(cf419c0ea01468047af7b430cdd96ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2abf50b7ae8da9616d9dec686cab0a0') in 0.022388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon02.png
+  artifactKey: Guid(261e2aa23be70194581ed58e46311f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon02.png using Guid(261e2aa23be70194581ed58e46311f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e1713bd8c63a179c13641889c801fb') in 0.023973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsLeft.png
+  artifactKey: Guid(0ccab13cd9eac2742a3f7ed539053c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/ArrowsLeft.png using Guid(0ccab13cd9eac2742a3f7ed539053c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4835dc04c7345e01e6433984bdbaa9e0') in 0.020817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon14.png
+  artifactKey: Guid(e58811c1241bb964fa30d6bedff6a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon14.png using Guid(e58811c1241bb964fa30d6bedff6a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e274a9ef9ba363441d0ac75ae1a241b0') in 0.019571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon01.png
+  artifactKey: Guid(f02e68e136d336348bb7a4e7e973c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon01.png using Guid(f02e68e136d336348bb7a4e7e973c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9a4eb79d3679c2e76511265b5a8904') in 0.015048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.035265 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01
+  artifactKey: Guid(aac4ee39f1a2736429c8035091788d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01 using Guid(aac4ee39f1a2736429c8035091788d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b331f1867ef1cb8f85e2213801c5ea16') in 0.008076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034443 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_Bar.png
+  artifactKey: Guid(9fc94233e1e3cf7479d6a6e69571ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_Bar.png using Guid(9fc94233e1e3cf7479d6a6e69571ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3dbdfee12039990f158334a5f5b8d2') in 0.017519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.323052 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_Bar.png
+  artifactKey: Guid(9fc94233e1e3cf7479d6a6e69571ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_Bar.png using Guid(9fc94233e1e3cf7479d6a6e69571ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaeee72703d4a2608eca718e96919e7') in 0.017484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.626697 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_ProgressBar.png
+  artifactKey: Guid(c25d1b81589cf78498d2e7e5d282c420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_ProgressBar.png using Guid(c25d1b81589cf78498d2e7e5d282c420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ca68a1283d3762ff3175345a955a14') in 0.056345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.728522 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon24.png
+  artifactKey: Guid(8cceb7d7c6ee3834da884576eee4acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon24.png using Guid(8cceb7d7c6ee3834da884576eee4acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bdd5619797a68284882105b0df370b') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon28.png
+  artifactKey: Guid(7f278554f576be2448430b78a7d0660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon28.png using Guid(7f278554f576be2448430b78a7d0660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b206c9aff3f19ac256fd521130936fd') in 0.026088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon31.png
+  artifactKey: Guid(23cf184e7c5a9344589d579204725ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon31.png using Guid(23cf184e7c5a9344589d579204725ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcd111d2d360aa348fcf9365f4cac57') in 0.019448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon33.png
+  artifactKey: Guid(48b997ae079894241a4d7e013dbf8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon33.png using Guid(48b997ae079894241a4d7e013dbf8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca36206d9fd0f6791bcdcc13b7f75c7') in 0.019024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon37.png
+  artifactKey: Guid(bcd55d18e52a5e44a99fa5473c8f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon37.png using Guid(bcd55d18e52a5e44a99fa5473c8f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f047872f7d3b65f8be7386ddb0f68a5') in 0.021128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon34.png
+  artifactKey: Guid(1693eeeac93613040b90d4fe074bacc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon34.png using Guid(1693eeeac93613040b90d4fe074bacc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c6a8d3d29628e9bb6fb46f1b297ea') in 0.020527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon36.png
+  artifactKey: Guid(09039ea2d5462de4eb6f846c7c6f7b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon36.png using Guid(09039ea2d5462de4eb6f846c7c6f7b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0461f3eea90f46ec6d5c43042b8ea88e') in 0.018336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon26.png
+  artifactKey: Guid(4736913d478312f45bc54e8b1702a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/Icons/Icon26.png using Guid(4736913d478312f45bc54e8b1702a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68082187d2db71c722d174154bfb6a86') in 0.022901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.944851 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_ProgressBarBorder.png
+  artifactKey: Guid(7399506d1999caa44b74749354b8b958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_01/BarV1_ProgressBarBorder.png using Guid(7399506d1999caa44b74749354b8b958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a2b188826edf87f9a46c43dee0ca5b') in 0.022394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.766024 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03
+  artifactKey: Guid(982c26437402cd3489dc87e4619a04ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03 using Guid(982c26437402cd3489dc87e4619a04ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573ab54599b3a55762a5e415b1ea096') in 0.007775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.557117 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03/BarV3_Bar.png
+  artifactKey: Guid(c6193e2ae1155ca4293a4fa6a3f1fd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03/BarV3_Bar.png using Guid(c6193e2ae1155ca4293a4fa6a3f1fd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f19120f199c48e95dc921e1a54e0055') in 0.018764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03/BarV3_ProgressBarBorder.png
+  artifactKey: Guid(b2bbc8275937e874391c287d2495495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_03/BarV3_ProgressBarBorder.png using Guid(b2bbc8275937e874391c287d2495495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0224f82a5ca9a09483073cd2719261c5') in 0.022036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.393288 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_04
+  artifactKey: Guid(5b9a2bea08e46e4419169b20d8a0c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_04 using Guid(5b9a2bea08e46e4419169b20d8a0c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf3298d9df2e74769e5cf908eac4e8d') in 0.008731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074683 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_04/BarV4_Bar.png
+  artifactKey: Guid(e16a61ed584610a45930382ba30fbddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_04/BarV4_Bar.png using Guid(e16a61ed584610a45930382ba30fbddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ad92d6ecd0be3d41b8ede0f4b843e2') in 0.016628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.271479 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09
+  artifactKey: Guid(9c705bb86e4e37d488f020c22f9270fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09 using Guid(9c705bb86e4e37d488f020c22f9270fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff8360fe51275563fb22f7c41669ca5') in 0.006955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047221 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09/BarV6_ProgressBarBorder.png
+  artifactKey: Guid(f04c32f6a73c54f4ca24014342eb8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09/BarV6_ProgressBarBorder.png using Guid(f04c32f6a73c54f4ca24014342eb8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ef9a26b27c17b1f6153cac34031ce0') in 0.014688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09/BarV9_ProgressBar.png
+  artifactKey: Guid(6a3d9c482b0ef9c4795207ca423cc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG/ProgressBar_09/BarV9_ProgressBar.png using Guid(6a3d9c482b0ef9c4795207ca423cc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2804bb51a913b5725437a417b97f17') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.641410 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1
+  artifactKey: Guid(900f1dd0d7c55cb4fa61fc6d0db61a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1 using Guid(900f1dd0d7c55cb4fa61fc6d0db61a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843a86480a9a9b92b94a5bc4ddab4f07') in 0.008133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035423 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png
+  artifactKey: Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png using Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28c6537af9ccf4d184fb971ce081a1d') in 0.022435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png
+  artifactKey: Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png using Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c83a0d8ff8fb07e7d1571f1541e55a') in 0.018613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png
+  artifactKey: Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png using Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0131e0bb2604c5bbd86e7689b76917ec') in 0.015699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon08.png
+  artifactKey: Guid(7166db23eceea2247b1d8ee911770bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon08.png using Guid(7166db23eceea2247b1d8ee911770bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9430e525373f7efcffa8c7890bf947ac') in 0.017929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png
+  artifactKey: Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png using Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455b4e27dde95fdd34b9756d545f2fa7') in 0.021134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png
+  artifactKey: Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png using Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a74e023c68e5a6761178b71d4196778') in 0.024244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon01.png
+  artifactKey: Guid(37c768b3ca701bb429cd779414d83ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon01.png using Guid(37c768b3ca701bb429cd779414d83ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d549d2e27708b6e3d7e27711f6af71') in 0.020560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png
+  artifactKey: Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png using Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018bb852311d0146e7d39d4c759f3489') in 0.022284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png
+  artifactKey: Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png using Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887f40cb4aabc9a3cb497424af08eb78') in 0.020557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png
+  artifactKey: Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png using Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30309dbf82e908bbf2c9293cc6422377') in 0.023316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png
+  artifactKey: Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png using Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8422383019c3e7ce0174b9def0adb5') in 0.020175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png
+  artifactKey: Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png using Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee0057e8643e48cbc3647f474fa0cec') in 0.015748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png
+  artifactKey: Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png using Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d75162fb872c6d9e962f9fdd5e1477') in 0.023296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon07.png
+  artifactKey: Guid(91f71594980758349be3aeb0f565f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon07.png using Guid(91f71594980758349be3aeb0f565f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cad4e9fb5a9e48579303aa90d7b64a4') in 0.020789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png
+  artifactKey: Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png using Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54be8cfb0382d598c7547ac72e3f05f7') in 0.022041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png
+  artifactKey: Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png using Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f5bd3a2dfd859a86824b8fcdf4f408') in 0.022311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon09.png
+  artifactKey: Guid(68fcb163f3365a348843f067a197e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon09.png using Guid(68fcb163f3365a348843f067a197e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e2fe1837fd337d06ee001cb1c815b') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png
+  artifactKey: Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png using Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3550b0697a9fac1bc04fbd83712e1dbf') in 0.021708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon15.png
+  artifactKey: Guid(96373beb866d1634090bf61e8d36270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon15.png using Guid(96373beb866d1634090bf61e8d36270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bbf3887104459c86b992fd63e48288') in 0.019437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.425225 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon11.png
+  artifactKey: Guid(77f8617954a44b64187e16f72261bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon11.png using Guid(77f8617954a44b64187e16f72261bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed93aa5d9001ac937c295cff59b377d') in 0.018575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon18.png
+  artifactKey: Guid(31b37494e0312df4681d1ad886719eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon18.png using Guid(31b37494e0312df4681d1ad886719eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f196c765c679f8bf1447d48865e26aa4') in 0.020217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon17.png
+  artifactKey: Guid(6374200f7168233498607c9d22f5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon17.png using Guid(6374200f7168233498607c9d22f5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c519c58a4aa174c142ede9bca9feb515') in 0.021610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon25.png
+  artifactKey: Guid(e8bc349c03d91b047bf315873bb1375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon25.png using Guid(e8bc349c03d91b047bf315873bb1375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9d9818675066d38a57c42fd02427a') in 0.023893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon21.png
+  artifactKey: Guid(95bba0dc7e4bbcc45999ce8cd1a4ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon21.png using Guid(95bba0dc7e4bbcc45999ce8cd1a4ae5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a64fd6bfe4659ff3c49170e44053a9e') in 0.020655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon14.png
+  artifactKey: Guid(179d808e0d50f45478d3185fe4a5cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon14.png using Guid(179d808e0d50f45478d3185fe4a5cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cef4d419d2b14ff0deb3dc0fdc6a1ff') in 0.025623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon27.png
+  artifactKey: Guid(54a7251874fa5bb4a8083787f50fa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon27.png using Guid(54a7251874fa5bb4a8083787f50fa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6441e023e238327b006b916b723183ea') in 0.021700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.570493 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon29.png
+  artifactKey: Guid(89ade57bc4b75094985f1d85b90ed1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon29.png using Guid(89ade57bc4b75094985f1d85b90ed1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d23070c7ae21f45e40498772eb7cb08') in 0.020323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon34.png
+  artifactKey: Guid(3cdb4b9e8910e1040b437cac59ff11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon34.png using Guid(3cdb4b9e8910e1040b437cac59ff11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa212249c8c85ba26821411e15f56a2') in 0.021487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon32.png
+  artifactKey: Guid(78dfd67341f1b36448c4c22fb91a5eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon32.png using Guid(78dfd67341f1b36448c4c22fb91a5eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77965b3c5aa42471f439728a0286cd6') in 0.026426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261485 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon38.png
+  artifactKey: Guid(75c915a2772438c4888204dc65d6dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon38.png using Guid(75c915a2772438c4888204dc65d6dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3f395a996daa26b848f3fb722a9095') in 0.024808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon44.png
+  artifactKey: Guid(7ff4c8c5586ff8b49b569b4b5765123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon44.png using Guid(7ff4c8c5586ff8b49b569b4b5765123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547808d9b82cbe4b7e7a633a9805b759') in 0.018456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon45.png
+  artifactKey: Guid(ced96a7ca780b1c47ab2629cd6ffcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon45.png using Guid(ced96a7ca780b1c47ab2629cd6ffcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fcc0b3990ed460f802abe61e0c17f1') in 0.020562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon43.png
+  artifactKey: Guid(8de98520c60ecda48b9c0c8ee7a90bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon43.png using Guid(8de98520c60ecda48b9c0c8ee7a90bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210c96ecc4c6bed52d4c320ef9584130') in 0.016391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.574696 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png
+  artifactKey: Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png using Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f56f9a7efcf05858e8903e375c5c2e') in 0.025918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png
+  artifactKey: Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png using Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f989816b65b67c99b9f5cbdcf1e89ebb') in 0.018013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png
+  artifactKey: Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png using Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce869e165b06e1c07674fbb6584eb52') in 0.015303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png
+  artifactKey: Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png using Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5b266b054a417c891aef28a41da0e') in 0.023851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon18.png
+  artifactKey: Guid(64997887f4f1dfb46b970a487f5e32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon18.png using Guid(64997887f4f1dfb46b970a487f5e32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2009eafccc170a182ad471693c31ca') in 0.013513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png
+  artifactKey: Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png using Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91103752dd59c17174a8862710aedea1') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon17.png
+  artifactKey: Guid(b52c7aa66d549f749b4254d06262955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon17.png using Guid(b52c7aa66d549f749b4254d06262955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b909f2628667da3b41fee504fbae23') in 0.015158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png
+  artifactKey: Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png using Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43631aa29f7cba508f98e0cb3919f38d') in 0.025705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon03.png
+  artifactKey: Guid(caafd011f102e2a40b543c40cdfb97c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon03.png using Guid(caafd011f102e2a40b543c40cdfb97c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9654d35047a1a92a5ee93b4d4b792') in 0.018786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon12.png
+  artifactKey: Guid(8e37b4849ba84da4abe6969c571cfc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon12.png using Guid(8e37b4849ba84da4abe6969c571cfc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df259a45004d7b2797ca5817930b51a') in 0.016718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png
+  artifactKey: Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png using Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c8ff9a67ff0e75d0e3d08d6877d6ba') in 0.028551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png
+  artifactKey: Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png using Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfa2cd3c9e5fc78e2cf02a25d18caf') in 0.016048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon07.png
+  artifactKey: Guid(91f71594980758349be3aeb0f565f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon07.png using Guid(91f71594980758349be3aeb0f565f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd13a1cf5d9d6272a7e305cc6e1e79f9') in 0.015106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon17.png
+  artifactKey: Guid(6374200f7168233498607c9d22f5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon17.png using Guid(6374200f7168233498607c9d22f5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d8f3773b153a6cdb9f3c79110fb555') in 0.018323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png
+  artifactKey: Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png using Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2b19f75509ec3cb40d241e4294350e') in 0.014237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon11.png
+  artifactKey: Guid(77f8617954a44b64187e16f72261bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon11.png using Guid(77f8617954a44b64187e16f72261bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ff7233f9404bcdf42c2b88d178f1f1') in 0.024971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png
+  artifactKey: Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png using Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab44eef41f1ee88787330741b67b92e') in 0.017281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon15.png
+  artifactKey: Guid(96373beb866d1634090bf61e8d36270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon15.png using Guid(96373beb866d1634090bf61e8d36270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7115bb603b81b4ec1f3bb08c4699b06') in 0.015832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.164337 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png
+  artifactKey: Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png using Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158d11caa998b7670644524cc2488b3') in 0.049811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cells01.png
+  artifactKey: Guid(73f5449113d31a648b4aeb4e596ef3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cells01.png using Guid(73f5449113d31a648b4aeb4e596ef3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6a94994f3ca6f922985c4700de2515') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png
+  artifactKey: Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png using Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa123f5c68fd5f474a5117325136c8a3') in 0.020273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png
+  artifactKey: Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png using Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf159b540c4dfd377ad80915461519b2') in 0.021678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116756 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon01.png
+  artifactKey: Guid(27571b5d7345125428bc6a13fd6756ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon01.png using Guid(27571b5d7345125428bc6a13fd6756ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd907461af23b2fee1447b77b513e5702') in 0.017979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.419799 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png
+  artifactKey: Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png using Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1702dbf6932f4812afb2bc64a13088') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.429820 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png
+  artifactKey: Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png using Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef6a02802a7b5e04ec12f40e9bcfbbe') in 0.015658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png
+  artifactKey: Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png using Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a694b0b6ef3b8d121625ee9093920fd8') in 0.013888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png
+  artifactKey: Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png using Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dc8e4fb8adef774295e7a2e29da665') in 0.013612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon08.png
+  artifactKey: Guid(7166db23eceea2247b1d8ee911770bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon08.png using Guid(7166db23eceea2247b1d8ee911770bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2e1d81e27fc7745348155d0151cfcc') in 0.011769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png
+  artifactKey: Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png using Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b13ac9f0a2500ea8833f12854fce0ad') in 0.012694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon05.png
+  artifactKey: Guid(b5a9b42648229874b9ac1420b7060bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon05.png using Guid(b5a9b42648229874b9ac1420b7060bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b9d5607d6a32b98617c55ae064e2c7') in 0.013960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png
+  artifactKey: Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png using Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35b4c53375385244d48607ff9215772') in 0.015255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon04.png
+  artifactKey: Guid(6756f8509e6453f44ab92d96fa16a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon04.png using Guid(6756f8509e6453f44ab92d96fa16a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1237a5f5c8a92b918493d652491d7c12') in 0.015605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png
+  artifactKey: Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png using Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5fd8fa41968d1c39de9f0fe5b789b1') in 0.012765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon04.png
+  artifactKey: Guid(0eb9fa5c41e60624cafafc37637e07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon04.png using Guid(0eb9fa5c41e60624cafafc37637e07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f27e66eb580a2fd387a12c7d30a0ef') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png
+  artifactKey: Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png using Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54186bb0f21acf9ebdf47dacc33d7d73') in 0.018159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png
+  artifactKey: Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Cell01.png using Guid(278702decab4a7344bce0404686f70d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a636b2c2df13c91111a1a37736435c4') in 0.011487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon09.png
+  artifactKey: Guid(68fcb163f3365a348843f067a197e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon09.png using Guid(68fcb163f3365a348843f067a197e53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d880dd3b7d416211885b6abf7aa508') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon14.png
+  artifactKey: Guid(8c13947eea7ef5f4294f2a10a01951eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon14.png using Guid(8c13947eea7ef5f4294f2a10a01951eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955b6ffa2badb1f3bc2069eab884bfb6') in 0.015741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.533741 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png
+  artifactKey: Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon07.png using Guid(bfd049dd6e270df4db4ce05441ddc1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffdcbd904e6b1b5345f2a6d410d8f39') in 0.009302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039959 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png
+  artifactKey: Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png using Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e74bb144022186d80ca18ef4744037') in 0.016157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png
+  artifactKey: Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon03.png using Guid(cd7f3860b7c3ec84ebf1b1fbaa6b5b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73418f6a359145818d82482c80245176') in 0.017054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png
+  artifactKey: Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png using Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420e9e0412b5b75dd4caa26b90699bc6') in 0.016742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png
+  artifactKey: Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png using Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c41f8ff41a0ef5dac7f9cdc46c2447a') in 0.013194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon05.png
+  artifactKey: Guid(b5a9b42648229874b9ac1420b7060bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon05.png using Guid(b5a9b42648229874b9ac1420b7060bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908fdd1a824febd26713bc53b9ac9613') in 0.014503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon06.png
+  artifactKey: Guid(45ad52366d2790d4b9045fbf172b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon06.png using Guid(45ad52366d2790d4b9045fbf172b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47676640daf00f8107dea44962089e90') in 0.011473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png
+  artifactKey: Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon02.png using Guid(9e55acb6919a5024bbcbaa69e936a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4968de5bfec5103dc80e5973deef8a') in 0.013869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon10.png
+  artifactKey: Guid(e950eb4388e9cdc418be550eec0b4db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon10.png using Guid(e950eb4388e9cdc418be550eec0b4db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203c10ca6cd1586fc535dc721853c41e') in 0.012297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png
+  artifactKey: Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon19.png using Guid(b6b415cb6ffa21041b526bbc500e9338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1833cbc20ea796be411ec293b99ad3d') in 0.024650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon23.png
+  artifactKey: Guid(3c57933598c79cb479234e3f9a9c0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon23.png using Guid(3c57933598c79cb479234e3f9a9c0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acd59e9f9fd076a0e320fd8c526a722') in 0.013713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png
+  artifactKey: Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png using Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee910d63572d7fc237067c0a1eeef9') in 0.014428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon14.png
+  artifactKey: Guid(8c13947eea7ef5f4294f2a10a01951eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon14.png using Guid(8c13947eea7ef5f4294f2a10a01951eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a749473c887d60da99024dff3684acbe') in 0.011320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.742257 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png
+  artifactKey: Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Arrow01.png using Guid(1a104edae6192594abf64cd84e5ddab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9337cb63edcdc60c261f811e5901fa') in 0.019768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png
+  artifactKey: Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png using Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd129ec90968be3ff10c4bff8e147c692') in 0.011365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png
+  artifactKey: Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png using Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb7d671b3d883285f36b7b5319519c5') in 0.014995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png
+  artifactKey: Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon06.png using Guid(8edbcf9d0d87a884ab7bfdd8d41e1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22e91ea09ec28095f84f01c28539330') in 0.018499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon01.png
+  artifactKey: Guid(37c768b3ca701bb429cd779414d83ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon01.png using Guid(37c768b3ca701bb429cd779414d83ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093a63c402437e6ea80670451ec623a') in 0.013016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon06.png
+  artifactKey: Guid(45ad52366d2790d4b9045fbf172b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon06.png using Guid(45ad52366d2790d4b9045fbf172b45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6023d21a025db3a86f95c77c64c03') in 0.015181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon04.png
+  artifactKey: Guid(6756f8509e6453f44ab92d96fa16a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon04.png using Guid(6756f8509e6453f44ab92d96fa16a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb42f63300d6c62439e62138b2a17999') in 0.013747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png
+  artifactKey: Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon02.png using Guid(38f463cbaa08528489854b4ed1e650e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf9c9ab8569be0ee36bdafa8a44c8f2') in 0.016092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon04.png
+  artifactKey: Guid(0eb9fa5c41e60624cafafc37637e07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon04.png using Guid(0eb9fa5c41e60624cafafc37637e07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abab85a7ca39d8a799743a95be25d67') in 0.017120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png
+  artifactKey: Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon05.png using Guid(d98c70ba69976684a89ffbf3c036b347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350524fe844f161ab48291a6726bb848') in 0.018236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png
+  artifactKey: Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon09.png using Guid(15916590a63afab42880a92688afbaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5691eb8bfd3043786818e42026e4f37d') in 0.013295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png
+  artifactKey: Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon12.png using Guid(c1895c832e7bb3741b0c1924456efacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc86c20154a14540b46f372391e85abb') in 0.013755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon01.png
+  artifactKey: Guid(27571b5d7345125428bc6a13fd6756ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon01.png using Guid(27571b5d7345125428bc6a13fd6756ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf72c0699b7a83ff17109101f59441e') in 0.016800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.727123 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png
+  artifactKey: Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon13.png using Guid(77cc38a2931b56c40a8691f7fbfe1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9609be6a771717925de99229416ee93f') in 0.020433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.030387 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png
+  artifactKey: Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon20.png using Guid(e9211f0fbc6deb64d8f9d47b7528a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8441d26587bcaeb4de54d27a141a2c5') in 0.019386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.908846 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon10.png
+  artifactKey: Guid(1168b9bdc2897924c98168cc4889a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon10.png using Guid(1168b9bdc2897924c98168cc4889a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be1287504cd75ab0533cdd873c71e9a') in 0.016040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon15.png
+  artifactKey: Guid(ef85e171759825c409ca9a2b7e5e6c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon15.png using Guid(ef85e171759825c409ca9a2b7e5e6c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04f8cfc1d7c3d732b8fc3ace528a44b') in 0.019698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon14.png
+  artifactKey: Guid(179d808e0d50f45478d3185fe4a5cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon14.png using Guid(179d808e0d50f45478d3185fe4a5cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ebf66b5b8a0de114d52f65cebefbc') in 0.019087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.880115 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png
+  artifactKey: Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon21.png using Guid(ea7d183f0344d5b4092fe3eb417e76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b831545ddcdcf46a18802067b62785d') in 0.020053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.547116 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon18.png
+  artifactKey: Guid(64997887f4f1dfb46b970a487f5e32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon18.png using Guid(64997887f4f1dfb46b970a487f5e32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b549e4be82c443eb355eb22438a0a1') in 0.018473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.503680 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png
+  artifactKey: Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon16.png using Guid(10079e4f5520e81408c9ba568a1871ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd0360a97c7e03a8165522b4edef764') in 0.019232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.527626 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png
+  artifactKey: Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon22.png using Guid(390312042a79f69489d50e3cb1fbe092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87abe4913afdbbb0279013c29760e409') in 0.019616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.719576 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon23.png
+  artifactKey: Guid(3c57933598c79cb479234e3f9a9c0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Icon23.png using Guid(3c57933598c79cb479234e3f9a9c0fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86ff5afb4cf4577267e861150bf2c1d') in 0.017549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.658100 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon19.png
+  artifactKey: Guid(a5962af196c58164ea549369ab72e83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon19.png using Guid(a5962af196c58164ea549369ab72e83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6fdf683aaf6e69a07613a08f7426de') in 0.016688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon22.png
+  artifactKey: Guid(92ee38cffa911be4e83422c2177884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon22.png using Guid(92ee38cffa911be4e83422c2177884c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4ec973a12b549d7af1f6aa828e8012') in 0.018233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon23.png
+  artifactKey: Guid(e81dc1ac52220914492e1e07db3ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon23.png using Guid(e81dc1ac52220914492e1e07db3ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a78d336790f1b70d0a27275138a05d') in 0.019700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188522 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon28.png
+  artifactKey: Guid(9cb2c2aa1484fb7498056329e1517ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon28.png using Guid(9cb2c2aa1484fb7498056329e1517ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c79b24b617afc802c1edf2168af4e74') in 0.024323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon34.png
+  artifactKey: Guid(3cdb4b9e8910e1040b437cac59ff11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon34.png using Guid(3cdb4b9e8910e1040b437cac59ff11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5737ac945ed0965c38d16ff6d2129ca') in 0.022039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon35.png
+  artifactKey: Guid(5f4b758cdb443104996554e3ba6d6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon35.png using Guid(5f4b758cdb443104996554e3ba6d6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0afd4f41b5f024b20cc92e262d4c69c') in 0.020991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.241514 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon37.png
+  artifactKey: Guid(de972f748faf43b4ca1a843a3fca1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon37.png using Guid(de972f748faf43b4ca1a843a3fca1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b549beae75c900075f3991340d77e8c') in 0.016314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon42.png
+  artifactKey: Guid(d2114ef483c19e648a45f4ea0bfd4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon42.png using Guid(d2114ef483c19e648a45f4ea0bfd4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12053e5280436d71c19e1ac46e1026c') in 0.019068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon45.png
+  artifactKey: Guid(ced96a7ca780b1c47ab2629cd6ffcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon45.png using Guid(ced96a7ca780b1c47ab2629cd6ffcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b8e14d39eede1ac869b71193ddf789') in 0.021253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon46.png
+  artifactKey: Guid(0c35b4b8d02bf764bb0a7193e4638588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon46.png using Guid(0c35b4b8d02bf764bb0a7193e4638588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b1138e70f421e1650a0d078f6d65d') in 0.016914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.732741 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Button01.png
+  artifactKey: Guid(68e3ec735fcf0984a80065a22445b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/Button01.png using Guid(68e3ec735fcf0984a80065a22445b7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c549e4673eaba1c985dec8b732796e43') in 0.019317 seconds 

@@ -1,0 +1,224 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 14197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61285
+Successfully changed project path to: C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 165.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/plays/OneDrive/Desktop/ASII/killerpredate-ASII/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7098 MB
+    Driver:   27.20.15026.8004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003916 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (668ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 146.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1509ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1289ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (707ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5648 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (159.1 KB). Loaded Objects now: 6110.
+Memory consumption went from 219.0 MB to 218.9 MB.
+Total: 5.825500 ms (FindLiveObjects: 0.679900 ms CreateObjectMapping: 0.285800 ms MarkObjects: 4.635000 ms  DeleteObjects: 0.222600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98981.353129 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon10.png
+  artifactKey: Guid(1168b9bdc2897924c98168cc4889a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon10.png using Guid(1168b9bdc2897924c98168cc4889a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6c10bcf2e43222b9a48f242be84244') in 0.110158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon24.png
+  artifactKey: Guid(6bf3f0e3a358f9f4aae9b748470977c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon24.png using Guid(6bf3f0e3a358f9f4aae9b748470977c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930e2ef6ee63d99b9ac94b94922c6827') in 0.024892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon23.png
+  artifactKey: Guid(e81dc1ac52220914492e1e07db3ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon23.png using Guid(e81dc1ac52220914492e1e07db3ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384db9c1e1fc755517159257043b0771') in 0.028029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon13.png
+  artifactKey: Guid(b58487d321cb14441bc60b19915e1b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon13.png using Guid(b58487d321cb14441bc60b19915e1b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498e6d622ec4db671f2db2f7b01d6578') in 0.020296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.570735 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon28.png
+  artifactKey: Guid(9cb2c2aa1484fb7498056329e1517ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon28.png using Guid(9cb2c2aa1484fb7498056329e1517ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9a0014f61a3eee5f13f91bf94e505e') in 0.021245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon36.png
+  artifactKey: Guid(17ca741cfb5ae974fb7c47188cdf924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon36.png using Guid(17ca741cfb5ae974fb7c47188cdf924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c30456bf1896a5d654b258edc3103a') in 0.022936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon35.png
+  artifactKey: Guid(5f4b758cdb443104996554e3ba6d6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon35.png using Guid(5f4b758cdb443104996554e3ba6d6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9286f1411f0618f4858c29127d388fd0') in 0.025343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260945 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon37.png
+  artifactKey: Guid(de972f748faf43b4ca1a843a3fca1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon37.png using Guid(de972f748faf43b4ca1a843a3fca1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add76ab2d7cdbc7b40c00a7adae5abc1') in 0.025714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon42.png
+  artifactKey: Guid(d2114ef483c19e648a45f4ea0bfd4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon42.png using Guid(d2114ef483c19e648a45f4ea0bfd4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffa1501698dd3e31006c42cccbd9c1b') in 0.021167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon46.png
+  artifactKey: Guid(0c35b4b8d02bf764bb0a7193e4638588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wenrexa Interface UI KIT #4/PNG 1/ResIcon46.png using Guid(0c35b4b8d02bf764bb0a7193e4638588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53878df51f8124cf74f4af5677d5e77') in 0.020593 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

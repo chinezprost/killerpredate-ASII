@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0f18c426-318f-bd11-290d-381d17829237}</ProjectGuid>
+    <ProjectGuid>{114270c8-b53f-1154-35a6-6dff2827d754}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -341,37 +341,37 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
      </Reference>
      <Reference Include="mcs">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Unsafe">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Mdb">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Mono.Cecil">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -740,249 +740,249 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Configuration">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEngineBridge.007">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetworkProfiler.Runtime">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Samples.Utilities.ClientAuthority">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.MetricTypes">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.MetricTypes.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.MetricTypes.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Netcode.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Networking.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStatsReporting">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsReporting.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsReporting.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Relay">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Relay.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Relay.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Networking.Transport">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.Common">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Common.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Common.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Authentication">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Authentication.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Authentication.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Netcode.Components">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
      </Reference>
      <Reference Include="Cinemachine">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
      <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Collections">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Netcode.Editor.PackageChecker">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStats">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStats.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStats.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tutorials.Core">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Lobbies">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Lobbies.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Lobbies.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetworkSolutionInterface">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.007">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Profiling.Core">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetworkProfiler.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Component">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Netcode.Runtime">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Samples.Utilities.RNSM">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.RNSM.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.RNSM.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tutorials.Core.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Samples.Utilities">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Samples.Utilities.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.QoS">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Services.QoS.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Services.QoS.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Implementation">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Unity Projects\ASII - Killerpredate\Unity - Killerpredate\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\plays\OneDrive\Desktop\ASII\killerpredate-ASII\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="QFSW.QC.UI.csproj">
-      <Project>{7b797ee5-6c15-5908-9de5-b8849da0afec}</Project>
+      <Project>{58b17741-6587-cf2d-9992-6f3d98286a2e}</Project>
       <Name>QFSW.QC.UI</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Editor.csproj">
-      <Project>{065b924d-0dfb-60c7-1926-e48193c7613f}</Project>
+      <Project>{ba3e941e-59ce-d3c4-1ee5-a215383d6b53}</Project>
       <Name>QFSW.QC.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.ScanRules.csproj">
-      <Project>{7ec933c1-6f2c-246a-0deb-7d56915f66af}</Project>
+      <Project>{c466a561-6b37-e6ba-edf0-68750cfd10b5}</Project>
       <Name>QFSW.QC.ScanRules</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Demo.csproj">
-      <Project>{2e851d37-44d8-6183-a99d-822b789a7b28}</Project>
+      <Project>{02336dda-a900-37d8-e1e4-cae546b65d9c}</Project>
       <Name>QFSW.QC.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Suggestors.csproj">
-      <Project>{72bfc34b-9156-f30e-8caf-08f2f8bb2f52}</Project>
+      <Project>{4dc46536-dce5-5e7d-b7cd-b6006691cdfb}</Project>
       <Name>QFSW.QC.Suggestors</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.QGUI.csproj">
-      <Project>{16683f6e-67e8-fe42-a899-9892243eadea}</Project>
+      <Project>{4abb0821-70ad-cd35-7888-fbe5cc727e8a}</Project>
       <Name>QFSW.QC.QGUI</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Serializers.csproj">
-      <Project>{c9233594-a09d-694b-7bb4-a1b702e8d238}</Project>
+      <Project>{a31709e5-e0a6-704b-6200-4b5e19b45e6f}</Project>
       <Name>QFSW.QC.Serializers</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Grammar.csproj">
-      <Project>{0e7599c1-0525-d745-9e87-e7e573c67b9f}</Project>
+      <Project>{2e76ed00-1464-f2a3-bea5-8e4c97acf754}</Project>
       <Name>QFSW.QC.Grammar</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.csproj">
-      <Project>{4cf92567-c516-5f82-f69e-c43c1db6a68c}</Project>
+      <Project>{874e1849-b2ce-28a7-eb7f-24223da7c0ae}</Project>
       <Name>QFSW.QC</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Parsers.csproj">
-      <Project>{5825fa13-a7fa-d9c9-6247-a1395123c50b}</Project>
+      <Project>{23cf9373-d25a-e8b5-aa6e-736ed05d7370}</Project>
       <Name>QFSW.QC.Parsers</Name>
     </ProjectReference>
     <ProjectReference Include="ParrelSync.csproj">
-      <Project>{004d44f4-552f-fc7d-914f-1286941ee5e2}</Project>
+      <Project>{2c478931-aea9-54b9-2e2a-c84ca89252a2}</Project>
       <Name>ParrelSync</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Editor.Tools.csproj">
-      <Project>{58804626-3848-9f53-86fe-beab133ba1a8}</Project>
+      <Project>{8d76c843-967b-9bac-8fde-e299936729ed}</Project>
       <Name>QFSW.QC.Editor.Tools</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Extras.csproj">
-      <Project>{6bb877be-1e74-06f2-11ce-1339bdeb8a4d}</Project>
+      <Project>{16d1d7e6-c044-5a52-fd2b-b07f3eae98db}</Project>
       <Name>QFSW.QC.Extras</Name>
     </ProjectReference>
   </ItemGroup>

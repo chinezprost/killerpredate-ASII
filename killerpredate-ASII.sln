@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{114270c8-b53f-1154-35a6-6dff2827d754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Grammar", "QFSW.QC.Grammar.csproj", "{2e76ed00-1464-f2a3-bea5-8e4c97acf754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC", "QFSW.QC.csproj", "{874e1849-b2ce-28a7-eb7f-24223da7c0ae}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Extras", "QFSW.QC.Extras.csproj", "{16d1d7e6-c044-5a52-fd2b-b07f3eae98db}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Serializers", "QFSW.QC.Serializers.csproj", "{a31709e5-e0a6-704b-6200-4b5e19b45e6f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.UI", "QFSW.QC.UI.csproj", "{58b17741-6587-cf2d-9992-6f3d98286a2e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Suggestors", "QFSW.QC.Suggestors.csproj", "{4dc46536-dce5-5e7d-b7cd-b6006691cdfb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Demo", "QFSW.QC.Demo.csproj", "{02336dda-a900-37d8-e1e4-cae546b65d9c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Parsers", "QFSW.QC.Parsers.csproj", "{23cf9373-d25a-e8b5-aa6e-736ed05d7370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.ScanRules", "QFSW.QC.ScanRules.csproj", "{c466a561-6b37-e6ba-edf0-68750cfd10b5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrelSync", "ParrelSync.csproj", "{2c478931-aea9-54b9-2e2a-c84ca89252a2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.QGUI", "QFSW.QC.QGUI.csproj", "{4abb0821-70ad-cd35-7888-fbe5cc727e8a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Editor", "QFSW.QC.Editor.csproj", "{ba3e941e-59ce-d3c4-1ee5-a215383d6b53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{bc9dc514-0483-4d48-a096-a80a3c42612f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QFSW.QC.Editor.Tools", "QFSW.QC.Editor.Tools.csproj", "{8d76c843-967b-9bac-8fde-e299936729ed}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{97f4520c-3f1e-c52a-5fdd-a5a955111f36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{114270c8-b53f-1154-35a6-6dff2827d754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114270c8-b53f-1154-35a6-6dff2827d754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2e76ed00-1464-f2a3-bea5-8e4c97acf754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2e76ed00-1464-f2a3-bea5-8e4c97acf754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874e1849-b2ce-28a7-eb7f-24223da7c0ae}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874e1849-b2ce-28a7-eb7f-24223da7c0ae}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16d1d7e6-c044-5a52-fd2b-b07f3eae98db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16d1d7e6-c044-5a52-fd2b-b07f3eae98db}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a31709e5-e0a6-704b-6200-4b5e19b45e6f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a31709e5-e0a6-704b-6200-4b5e19b45e6f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58b17741-6587-cf2d-9992-6f3d98286a2e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58b17741-6587-cf2d-9992-6f3d98286a2e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4dc46536-dce5-5e7d-b7cd-b6006691cdfb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4dc46536-dce5-5e7d-b7cd-b6006691cdfb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02336dda-a900-37d8-e1e4-cae546b65d9c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02336dda-a900-37d8-e1e4-cae546b65d9c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23cf9373-d25a-e8b5-aa6e-736ed05d7370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23cf9373-d25a-e8b5-aa6e-736ed05d7370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c466a561-6b37-e6ba-edf0-68750cfd10b5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c466a561-6b37-e6ba-edf0-68750cfd10b5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2c478931-aea9-54b9-2e2a-c84ca89252a2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2c478931-aea9-54b9-2e2a-c84ca89252a2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4abb0821-70ad-cd35-7888-fbe5cc727e8a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4abb0821-70ad-cd35-7888-fbe5cc727e8a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ba3e941e-59ce-d3c4-1ee5-a215383d6b53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ba3e941e-59ce-d3c4-1ee5-a215383d6b53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bc9dc514-0483-4d48-a096-a80a3c42612f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bc9dc514-0483-4d48-a096-a80a3c42612f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8d76c843-967b-9bac-8fde-e299936729ed}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8d76c843-967b-9bac-8fde-e299936729ed}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97f4520c-3f1e-c52a-5fdd-a5a955111f36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97f4520c-3f1e-c52a-5fdd-a5a955111f36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

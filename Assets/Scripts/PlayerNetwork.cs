@@ -30,6 +30,8 @@ public class PlayerNetwork : NetworkBehaviour
     [SerializeField]
     private Camera playerCamera;
 
+    public GameObject playerUsername;
+
     public Transform PlayerBody;
 
 
@@ -87,6 +89,7 @@ public class PlayerNetwork : NetworkBehaviour
         if (IsOwner)
         {
             playerCamera.gameObject.SetActive(true);
+            playerUsername.SetActive(false);
         }
 
         

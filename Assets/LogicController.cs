@@ -9,14 +9,17 @@ public class LogicController : NetworkBehaviour
 {
     public override void OnNetworkSpawn()
     {
+
+        if (!IsHost) return;
+        
         GeneratePlayerClass();
+        StartCoroutine(MatchCountdown(10));
     }
 
 
     private void GeneratePlayerClass()
     {
-        if (!IsHost) return;
-        
+
         var random = new Unity.Mathematics.Random((uint)DateTime.Now.Millisecond);
 
         var sheriffId =
@@ -70,9 +73,35 @@ public class LogicController : NetworkBehaviour
         }
     }
 
+    public IEnumerator MatchCountdown(int minutes)
+    {
+        int seconds = minutes * 60;
+
+        while (seconds > 0)
+        {
+            UpdatePlayerTimerClientRpc(seconds / 60, seconds % 60);
+            seconds--;
+            
+            yield return new WaitForSeconds(1f);
+            
+        }
+        
+
+    }
+
+    [ClientRpc]
+    public void UpdatePlayerTimerClientRpc(int minutes, int seconds)
+    {
+        
+        Debug.Log($"Player: {OwnerClientId} has received UpdatePlayerTimerClientRpc");
+        var UIManager = NetworkManager.SpawnManager.GetLocalPlayerObject().GetComponent<UIManager>();
+        UIManager.UpdatePlayerTimer(minutes, seconds);
+    }
+
     [ClientRpc]
     public void ShowPlayerUIClientRpc(int playerClass, ClientRpcParams @params)
     {
+        
         Debug.Log($"Player: {OwnerClientId} has received ClientRPC.");
         var UIManager = NetworkManager.SpawnManager.GetLocalPlayerObject().GetComponent<UIManager>();
         UIManager.PlayerShowUI(playerClass);
