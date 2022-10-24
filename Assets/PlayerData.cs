@@ -11,6 +11,9 @@ using UnityEngine.UI;
 public class PlayerData : NetworkBehaviour
 {
     public NetworkVariable<FixedString64Bytes> playerUsername = new NetworkVariable<FixedString64Bytes>("undefined", NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+
+    public NetworkVariable<int> playerClass = new NetworkVariable<int>(-1, NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Server);
     public void OnPlayerConnected(string[] parms)
     {
         if (!IsOwner) return;

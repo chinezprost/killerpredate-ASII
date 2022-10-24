@@ -129,7 +129,7 @@ public class PlayerNetwork : NetworkBehaviour
         if(networkVariablesController == null)
             networkVariablesController  = GameObject.Find("NetworkVariables");
 
-        if (SceneManager.GetActiveScene().name == "Lobby" && networkVariables == null)
+        if (SceneManager.GetActiveScene().name == "Lobby" && networkVariablesController != null && networkVariables == null)
         {
             networkVariables = networkVariablesController.GetComponent<NetworkVariables>();
         }
