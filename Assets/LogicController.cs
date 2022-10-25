@@ -7,16 +7,62 @@ using UnityEngine;
 
 public class LogicController : NetworkBehaviour
 {
+
+    public Coroutine matchCountdownCorountine;
     public override void OnNetworkSpawn()
     {
 
         if (!IsHost) return;
         
+        
         GeneratePlayerClass();
-        StartCoroutine(MatchCountdown(10));
+        matchCountdownCorountine = StartCoroutine(MatchCountdown(10));
     }
 
 
+
+
+    private void EndMatch(int result = -1)
+    {
+        StopCoroutine(matchCountdownCorountine);
+    }
+
+    private void GenerateMatchResult()
+    {
+        bool areAllDead = true;
+        foreach (var clientId in NetworkManager.Singleton.ConnectedClientsIds)
+        {
+            var playerData = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId).GetComponent<PlayerData>();
+            if (!playerData.isPlayerAlive.Value && playerData.playerClass.Value == 3)
+            {
+                Debug.Log("Sheriff won.");
+                EndMatch();
+                return;
+            }
+            if (!playerData.isPlayerAlive.Value && playerData.playerClass.Value == 2)
+            {
+                Debug.Log("Killer won.");
+                EndMatch();
+                return;
+            }
+            if (playerData.isPlayerAlive.Value && playerData.playerClass.Value == 1)
+            {
+                areAllDead = false;
+            }
+            
+        }
+
+        if (areAllDead)
+        {
+            Debug.Log("All players are dead, Killer won");
+            EndMatch();
+            return;
+        }
+
+        Debug.Log("Match is in progress.");
+        return;
+
+    }
     private void GeneratePlayerClass()
     {
 
@@ -46,7 +92,7 @@ public class LogicController : NetworkBehaviour
         foreach (var connectedClientId in NetworkManager.Singleton.ConnectedClientsIds)
         {
             Debug.Log(connectedClientId);
-            var playerData = NetworkManager.SpawnManager.GetPlayerNetworkObject(connectedClientId)
+            var playerData = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(connectedClientId)
                 .GetComponent<PlayerData>();
 
             if (connectedClientId == sheriffId)
@@ -80,12 +126,15 @@ public class LogicController : NetworkBehaviour
         while (seconds > 0)
         {
             UpdatePlayerTimerClientRpc(seconds / 60, seconds % 60);
+            GenerateMatchResult();
             seconds--;
             
             yield return new WaitForSeconds(1f);
             
         }
+
         
+
 
     }
 

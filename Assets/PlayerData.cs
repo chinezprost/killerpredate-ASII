@@ -14,6 +14,18 @@ public class PlayerData : NetworkBehaviour
 
     public NetworkVariable<int> playerClass = new NetworkVariable<int>(-1, NetworkVariableReadPermission.Everyone,
         NetworkVariableWritePermission.Server);
+
+    public NetworkVariable<bool> isPlayerAlive = new NetworkVariable<bool>(true, NetworkVariableReadPermission.Everyone,
+        NetworkVariableWritePermission.Server);
+
+    public override void OnNetworkSpawn()
+    {
+        isPlayerAlive.OnValueChanged += (bool oldValue, bool newValue) =>
+        {
+            
+        };
+    }
+
     public void OnPlayerConnected(string[] parms)
     {
         if (!IsOwner) return;
