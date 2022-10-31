@@ -14,7 +14,16 @@ public class UIManager : NetworkBehaviour
 
     public GameObject PlayerTimer;
 
+    public GameObject KillGameObject;
 
+
+    public override void OnNetworkSpawn()
+    {
+        if (!IsOwner)
+            return;
+        
+        KillGameObject.SetActive(true);
+    }
 
     public void UpdatePlayerTimer(int minutes, int seconds)
     {

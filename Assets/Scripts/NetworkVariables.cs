@@ -31,7 +31,7 @@ public class NetworkVariables : NetworkBehaviour
     public void InitializeVariables()
     {
         if(SceneManager.GetActiveScene().name == "Lobby")
-            readyTextGameobject.GetComponent<TextMesh>().text = $"{readyPlayers.Value}/max players";
+            readyTextGameobject.GetComponent<TextMesh>().text = $"{readyPlayers.Value} ready players.";
     }
     
 
@@ -41,7 +41,7 @@ public class NetworkVariables : NetworkBehaviour
         
         readyPlayers.OnValueChanged += (int previous, int current) =>
         {
-            readyTextGameobject.GetComponent<TextMesh>().text = $"{current}/max players";
+            readyTextGameobject.GetComponent<TextMesh>().text = $"{readyPlayers.Value} ready players.";
             if (NetworkManager.Singleton.IsHost && current == NetworkManager.ConnectedClients.Count)
             {
                 Debug.Log("Starting game...");

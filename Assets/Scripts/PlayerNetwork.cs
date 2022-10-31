@@ -35,6 +35,7 @@ public class PlayerNetwork : NetworkBehaviour
     public Transform PlayerBody;
 
     public ulong playerInView = 999;
+    public string playerInViewUsername = "none";
 
 
    
@@ -109,8 +110,12 @@ public class PlayerNetwork : NetworkBehaviour
         if (!IsOwner) return;
 
         if (other.tag == "Player" && playerInView == 999)
+        {
             playerInView = other.transform.gameObject.GetComponentInParent<NetworkObject>().OwnerClientId;
-        
+            playerInViewUsername = other.transform.gameObject.GetComponentInParent<NetworkObject>()
+                .GetComponent<PlayerData>().playerUsername.Value.ToString();
+        }
+
         if (other.tag == "InteractableObject")
         {
             objectInView = true;
@@ -124,6 +129,7 @@ public class PlayerNetwork : NetworkBehaviour
         
         objectInView = false;
         playerInView = 999;
+        playerInViewUsername = "none";
     }
 
     private void ChangeReadyCountText(int value)
@@ -162,7 +168,7 @@ public class PlayerNetwork : NetworkBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            TryToKillPlayerServerRpc(int clientId);
+            TryToKillPlayerServerRpc(NetworkManager.Singleton.LocalClientId);
         }
         
         if (Input.GetKeyDown(KeyCode.T))
@@ -208,7 +214,7 @@ public class PlayerNetwork : NetworkBehaviour
             Debug.Log("No player in range.");
             return;
         }
-        bnkghb
+        
         
         
     }
