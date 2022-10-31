@@ -34,6 +34,8 @@ public class PlayerNetwork : NetworkBehaviour
 
     public Transform PlayerBody;
 
+    public ulong playerInView = 999;
+
 
    
     private NetworkVariable<CostumData> randomNumber = new NetworkVariable<CostumData>(new CostumData
@@ -100,9 +102,14 @@ public class PlayerNetwork : NetworkBehaviour
         
     }
 
+    
+    
     public void OnTriggerEnter(Collider other)
     {
         if (!IsOwner) return;
+
+        if (other.tag == "Player" && playerInView == 999)
+            playerInView = other.transform.gameObject.GetComponentInParent<NetworkObject>().OwnerClientId;
         
         if (other.tag == "InteractableObject")
         {
@@ -116,6 +123,7 @@ public class PlayerNetwork : NetworkBehaviour
         if (!IsOwner) return;
         
         objectInView = false;
+        playerInView = 999;
     }
 
     private void ChangeReadyCountText(int value)
@@ -151,6 +159,11 @@ public class PlayerNetwork : NetworkBehaviour
             if(objectInView)
                 ReadyUpServerRpc();
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            TryToKillPlayerServerRpc(int clientId);
+        }
         
         if (Input.GetKeyDown(KeyCode.T))
         {
@@ -184,6 +197,20 @@ public class PlayerNetwork : NetworkBehaviour
             networkVariables.readyPlayers.Value -= 1;
             Debug.Log($"{OwnerClientId} has unready!");
         }
+    }
+
+    [ServerRpc]
+    private void TryToKillPlayerServerRpc(ulong clientId)
+    {
+        var playerNetwork = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId).GetComponent<PlayerNetwork>();
+        if (playerNetwork.playerInView == 999)
+        {
+            Debug.Log("No player in range.");
+            return;
+        }
+        bnkghb
+        
+        
     }
 
     [ServerRpc]

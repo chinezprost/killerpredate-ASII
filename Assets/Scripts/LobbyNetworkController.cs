@@ -36,7 +36,7 @@ public class LobbyNetworkController : NetworkBehaviour
     public IEnumerator StartingGameCountdown()
     {
         isCountdownRunning = true;
-        for (int i = 5; i >= 1; i--)
+        for (int i = 2; i >= 1; i--)
         {
             networkVariables.readyText.Value = $"Starting game... {i} seconds.";
             yield return new WaitForSeconds(1f);

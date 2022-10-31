@@ -27,6 +27,19 @@ public class LogicController : NetworkBehaviour
         StopCoroutine(matchCountdownCorountine);
     }
 
+    
+    private void KillPlayer(ulong clientId)
+    {
+        var playerData = NetworkManager.Singleton.SpawnManager.GetPlayerNetworkObject(clientId).GetComponent<PlayerData>();
+        if (playerData.isPlayerAlive.Value)
+        {
+            playerData.isPlayerAlive.Value = false;
+            Debug.Log($"Player {playerData.playerUsername.Value} has died!");
+            return;
+        }
+        Debug.Log($"Player {playerData.playerUsername.Value} is already dead!");
+    }
+    
     private void GenerateMatchResult()
     {
         bool areAllDead = true;
